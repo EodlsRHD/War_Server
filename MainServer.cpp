@@ -6,4 +6,5 @@ using namespace std;
 int main(void){
 	cout << "HELLO";
 	// VS COMMIT TEST
+	// VSCODE COMMIT TEST
 }
