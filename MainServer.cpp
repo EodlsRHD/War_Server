@@ -18,7 +18,7 @@ int main(void){
 	printf("winsock initialization success");
 
 	acceptSocket = socket(AF_INET, SOCK_STREAM, 0);
-	if (acceptSocket == INVALID_SOCKET) { cout << "���� ���� ����"; }
+	if (acceptSocket == INVALID_SOCKET) { cout << "can not connect server"; }
 
 	sockaddr addr = { 0 };
 		
