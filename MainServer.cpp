@@ -20,6 +20,9 @@ int main(void){
 	acceptSocket = socket(AF_INET, SOCK_STREAM, 0);
 	if (acceptSocket == INVALID_SOCKET) { cout << "can not connect server"; }
 
+	socketaddr_in addr
+	
+
 	sockaddr addr = { 0 };
 		
 	
