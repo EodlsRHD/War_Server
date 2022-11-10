@@ -15,9 +15,10 @@ int main(void){
 
 	WSADATA wsa;
 	if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0){ return 0; }
+	printf("winsock initialization success");
 
 	acceptSocket = socket(AF_INET, SOCK_STREAM, 0);
-	if (acceptSocket == INVALID_SOCKET) { cout << "¼­¹ö »ý¼º ½ÇÆÐ"; }
+	if (acceptSocket == INVALID_SOCKET) { cout << "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½"; }
 
 	sockaddr addr = { 0 };
 		
