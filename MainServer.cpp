@@ -7,7 +7,7 @@
 
 using namespace std;
 
-string serverIP = "serverip";
+const char *serverIPv4 = "000.000.000.000"
 int acceptPort = 0000;
 SOCKET acceptSocket;
 
